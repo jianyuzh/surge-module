@@ -1,0 +1,10 @@
+#!name=ChatGPT Check
+#!desc=ChatGPT Check
+#!system=ios
+#!category=Check
+
+[Panel]
+ChatGPT = script-name=ChatGPT,update-interval=-1
+
+[Script]
+ChatGPT = type=generic,timeout=6,script-path=https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%204/Script/chatgpt_check.js,argument=icon=lasso.and.sparkles&iconerr=xmark.seal.fill&icon-color=#336FA9&iconerr-color=#D65C51
